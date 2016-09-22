@@ -5,7 +5,7 @@ request.post(
     { json: { github: 'https://github.com/jsfuentes/Code-2040.git',
               token: '9b4d1e618c18156fe833ae53eeac221b'} },
     function (error, response, body) {
-        if (!error && response.statusCode == 200) {
+        if (!error) {
             console.log(body)
         }
     }
